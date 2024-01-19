@@ -12,6 +12,7 @@ const COLORS = {
   dark: "#3D3A45",
   grey: "#8C8896",
   lightGrey: "#D1CFD5",
+  screen: "#f5f5f5",
 };
 
 const SIZES = {

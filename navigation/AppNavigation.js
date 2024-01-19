@@ -13,6 +13,15 @@ import {
   Registration,
   Search,
   Signin,
+  Ent,
+  Anatomy,
+  Balaroga,
+  Brain,
+  Kaya,
+  Pathology,
+  Sexology,
+  Striroga,
+  Surgery,
 } from "../screens/index.js";
 import BottomTabNavigation from "./BottomTabNavigation.jsx";
 
@@ -59,7 +68,7 @@ export default function AppNavigation() {
             options={{ headerShown: false }}
           />
           <Stack.Screen
-            name="Herbdetail"
+            name="Herbdetails"
             component={Herbdetails}
             options={{ headerShown: false }}
           />
@@ -97,6 +106,51 @@ export default function AppNavigation() {
               headerShown: false,
             }}
           />
+          <Stack.Screen
+            name="Ent"
+            component={Ent}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Anatomy"
+            component={Anatomy}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Balaroga"
+            component={Balaroga}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Brain"
+            component={Brain}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Pathology"
+            component={Pathology}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Kaya"
+            component={Kaya}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Sexology"
+            component={Sexology}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Striroga"
+            component={Striroga}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Surgery"
+            component={Surgery}
+            options={{ headerShown: false }}
+          />
         </Stack.Navigator>
         <StatusBar style="auto" />
       </NavigationContainer>
@@ -105,6 +159,51 @@ export default function AppNavigation() {
     return (
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Bottom">
+          <Stack.Screen
+            name="Ent"
+            component={Ent}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Anatomy"
+            component={Anatomy}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Balaroga"
+            component={Balaroga}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Brain"
+            component={Brain}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Pathology"
+            component={Pathology}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Kaya"
+            component={Kaya}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Sexology"
+            component={Sexology}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Striroga"
+            component={Striroga}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Surgery"
+            component={Surgery}
+            options={{ headerShown: false }}
+          />
           <Stack.Screen
             name="Onboard"
             component={OnboardPage}
@@ -121,7 +220,7 @@ export default function AppNavigation() {
             options={{ headerShown: false }}
           />
           <Stack.Screen
-            name="Herbdetail"
+            name="Herbdetails"
             component={Herbdetails}
             options={{ headerShown: false }}
           />

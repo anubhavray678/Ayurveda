@@ -9,7 +9,9 @@ import { useNavigation } from "@react-navigation/native";
 const Herbtile = ({ item }) => {
   const navigation = useNavigation();
   return (
-    <TouchableOpacity onPress={() => navigation.navigate("Herbdetail", item)}>
+    <TouchableOpacity
+      onPress={() => navigation.navigate("Herbdetails", { item })}
+    >
       <View>
         <NetworkImage
           source={item.imageUrl}

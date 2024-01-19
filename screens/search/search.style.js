@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.small,
   },
   searchBtn: {
-    width: 50,
+    width: 52,
     height: "100%",
     borderRadius: SIZES.small,
     justifyContent: "center",

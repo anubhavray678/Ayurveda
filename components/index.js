@@ -9,7 +9,10 @@ import Departments from "./Home/Departments";
 import Departmentcard from "./Tiles/Departments/Departmentcard";
 import Banner from "./Home/Banner";
 import BackBtn from "./Reuseable/BackBtn";
+import DescriptionText from "./Reuseable/DescriptionText";
+import MedicineTile from "./Reuseable/MedicineTile";
 export {
+  MedicineTile,
   ReuseableText,
   ReuseableBtn,
   HeightSpacer,
@@ -18,6 +21,7 @@ export {
   Herbtile,
   NetworkImage,
   Departmentcard,
+  DescriptionText,
   Departments,
   Banner,
   BackBtn,
